@@ -3,7 +3,7 @@ from django.core.validators import MinValueValidator
 from django.core.validators import MaxValueValidator
 
 # Create your models here.
-class Object(models.Model):
+class Thing(models.Model):
     name = models.TextField(
         # unique = True,
         # blank = False,
