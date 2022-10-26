@@ -14,7 +14,7 @@ class Thing(models.Model):
         # blank = True,
         # max_length = 120
     )
-    quantiy = models.PositiveIntegerField(
+    quantity = models.PositiveIntegerField(
         # unique = False,
         # validators = [
         #     MinValueValidator(0),
